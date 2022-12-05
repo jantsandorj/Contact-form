@@ -1,0 +1,102 @@
+/* global */
+body{
+    background-color:rgba(137, 176, 223);
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    color: white;
+    font-size: large;
+    height: 100vh;
+}
+.container{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: 50%;
+}
+a{
+    color: white;
+}
+h1{
+    margin: 0;
+}
+input, select{
+    border: none;
+    border-bottom: 1px solid black;
+    display: inline-block;
+}
+form{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    width: 80%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 50px auto 0 auto;
+}
+/* general side */
+.general h1{
+    color: rgb(58, 58, 193);
+}
+.general{
+    background-color: white;
+    border-radius: 20px 0 0 20px;
+    width: 50%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: start;
+    gap: 40px
+}
+.fName,.LName{
+    width: 50%;
+}
+.oneRow{
+    display: flex;
+    gap: 20px;
+}
+.date::placeholder{
+    color: rgba(133, 133, 133);
+}
+/* contact side  */
+.contact{
+    background-color:rgb(58, 58, 193);
+    border-radius: 0 20px 20px 0;
+    width: 50%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap:40px;
+    justify-content: flex-start;
+    color: white;
+
+}
+.contact input, .contact select{
+    background-color: rgb(58, 58, 193);
+    color: white;
+}
+.contact input::placeholder{
+    color: white;
+}
+.zip,.place,.code,.phoneNum{
+    width: 50%;
+}
+.checkTerm{
+    width: 100%;
+    box-sizing: border-box;
+}
+.checkTerm label{
+    font-size: 16px;
+}
+#button{
+    width: 35%;
+    border: 2px solid rgb(58, 58, 193);
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
